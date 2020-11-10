@@ -1,0 +1,136 @@
+{
+    "formData": {
+      "value": {
+    "operation": "Config",
+    "nser": "76777777",
+    "workorderNumber": "Test",
+    "pid": null,
+    "crq": "CRQ876888888888",
+    "skipPeerReview": true,
+    "config-services": [
+        "AAA",
+        "SNMP",
+        "Base Services",
+        "Line VTY",
+        "Line AUX",
+        "Syslog"
+    ],
+    "hosts": [
+        {
+            "hostname": "C3845-Robot",
+            "ipaddress": "10.122.32.207",
+            "authgroup": "branch_local",
+            "controller_id": "RTP_NSO_56",
+            "subcontroller_id": "nso5-lsa3-rb",
+            "ned_id": "cisco-ios-cli-6.66:cisco-ios-cli-6.66",
+            "AAA": true,
+            "port": "22",
+            "status": "Available",
+            "location": {
+                "id": "c09c501e-16c7-4843-a880-9ede12e69eac",
+                "servername": "Alaska",
+                "name": "Alaska",
+                "locations": [
+                    {
+                        "id": "c09c501e-16c7-4843-a880-9ede12e69eac",
+                        "address": "171.142.12.28",
+                        "priority": 3,
+                        "servername": "Alaska"
+                    },
+                    {
+                        "id": "c09c501e-16c7-4843-a880-9ede12e69eac",
+                        "address": "10.122.32.157",
+                        "priority": 1,
+                        "servername": "Alaska"
+                    },
+                    {
+                        "id": "c09c501e-16c7-4843-a880-9ede12e69eac",
+                        "address": "171.137.1.138",
+                        "priority": 2,
+                        "servername": "Alaska"
+                    }
+                ]
+            },
+            "ntpservers": [
+                {
+                    "id": "c09c501e-16c7-4843-a880-9ede12e69eac",
+                    "address": "171.142.12.28",
+                    "priority": 3,
+                    "servername": "Alaska"
+                },
+                {
+                    "id": "c09c501e-16c7-4843-a880-9ede12e69eac",
+                    "address": "10.122.32.157",
+                    "priority": 1,
+                    "servername": "Alaska"
+                },
+                {
+                    "id": "c09c501e-16c7-4843-a880-9ede12e69eac",
+                    "address": "171.137.1.138",
+                    "priority": 2,
+                    "servername": "Alaska"
+                }
+            ]
+        },
+        {
+            "hostname": "Robot-3560-tmp-1",
+            "ipaddress": "10.81.59.24",
+            "authgroup": "branch_local",
+            "controller_id": "RTP_NSO_56",
+            "subcontroller_id": "nso5-lsa3-rb",
+            "ned_id": "cisco-ios-cli-6.66:cisco-ios-cli-6.66",
+            "AAA": true,
+            "port": "",
+            "status": "Available",
+            "location": {
+                "id": "3ebc803b-86d2-43df-9c44-9e47e967cdb2",
+                "servername": "Argentina",
+                "name": "Argentina",
+                "locations": [
+                    {
+                        "id": "3ebc803b-86d2-43df-9c44-9e47e967cdb2",
+                        "address": "171.142.12.28",
+                        "priority": 3,
+                        "servername": "Argentina"
+                    },
+                    {
+                        "id": "3ebc803b-86d2-43df-9c44-9e47e967cdb2",
+                        "address": "10.122.32.157",
+                        "priority": 1,
+                        "servername": "Argentina"
+                    },
+                    {
+                        "id": "3ebc803b-86d2-43df-9c44-9e47e967cdb2",
+                        "address": "171.137.1.138",
+                        "priority": 2,
+                        "servername": "Argentina"
+                    }
+                ]
+            },
+            "ntpservers": [
+                {
+                    "id": "3ebc803b-86d2-43df-9c44-9e47e967cdb2",
+                    "address": "171.142.12.28",
+                    "priority": 3,
+                    "servername": "Argentina"
+                },
+                {
+                    "id": "3ebc803b-86d2-43df-9c44-9e47e967cdb2",
+                    "address": "10.122.32.157",
+                    "priority": 1,
+                    "servername": "Argentina"
+                },
+                {
+                    "id": "3ebc803b-86d2-43df-9c44-9e47e967cdb2",
+                    "address": "171.137.1.138",
+                    "priority": 2,
+                    "servername": "Argentina"
+                }
+            ]
+        }
+    ]
+},
+"id": "5f45e29ea8428c0028e49cee",
+"item": "Common Service - Global Configuration v1.0.0"
+}
+}
